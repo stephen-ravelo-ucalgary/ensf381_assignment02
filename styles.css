@@ -145,6 +145,14 @@ footer {
 }
 
 /* Leaderboard */
+.leaderboard-table tr:nth-child(even) {
+    background-color: #e4e2e2;
+}
+
+.leaderboard-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
 .leaderboard-table tr:nth-child(1) {
     background-color: #4CAF50; 
     color: white;
@@ -155,33 +163,21 @@ footer {
     background-color: white;
 }
 
-.leaderboard-table tr:nth-child(even) {
-    background-color: #e4e2e2;
-
-}
-
-.leaderboard-table tr:nth-child(odd) {
-    background-color: #f9f9f9;
-}
-
-.leaderboard-table div:nth-child(1){
+#first{
     background-color: #ffd700;
 }
 
-.leaderboard-table div:nth-child(2) tr {
+#second {
     background-color: #c0c0c0;
 }
 
-.leaderboard-table div:nth-child(3) {
-    background-color: #c0c0c0;
-}
-
-.leaderboard-table div:nth-child(4) {
+#third {
     background-color: #cd7f32;
 }
 
 .leaderboard-table img {
     border-radius: 100%;
-    border-width: 2px;
+    border-width: 1px;
+    border-style: ridge;
     border-color: black;
 }
