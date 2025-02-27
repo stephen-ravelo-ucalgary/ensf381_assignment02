@@ -13,13 +13,18 @@ a {
     text-decoration: none;
 }
 
-/* Homepage (index.html) */
-.index-header {
+header {
     background-color: #004080;
     padding: 20px;
     margin: 0;
     display: flex;
     justify-content: space-between;
+    color: white;
+}
+
+footer {
+    background-color: #004080;
+    padding: 10px;
     color: white;
 }
 
@@ -39,6 +44,7 @@ a {
     text-decoration: underline;
 }
 
+/* Homepage (index.html) */
 .index-main {
     background-color: #d4d4d4;
     padding: 20px;
@@ -57,11 +63,6 @@ a {
     font-weight: bold;
 }
 
-.index-footer {
-    background-color: #004080;
-    padding: 10px;
-    color: white;
-}
 
 /* Login Page */
 .login-form {
@@ -154,12 +155,12 @@ a {
     background-color: white;
 }
 
-.leaderboard-table div:nth-child(even) {
+.leaderboard-table tr:nth-child(even) {
     background-color: #e4e2e2;
 
 }
 
-.leaderboard-table div:nth-child(odd) {
+.leaderboard-table tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
 
@@ -167,7 +168,7 @@ a {
     background-color: #ffd700;
 }
 
-.leaderboard-table div:nth-child(2) {
+.leaderboard-table div:nth-child(2) tr {
     background-color: #c0c0c0;
 }
 
