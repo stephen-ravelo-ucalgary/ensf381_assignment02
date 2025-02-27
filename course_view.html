@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course View - LMS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <img src="logo.jpg" alt="LMS Logo" style="width: 100px; height: 100px;">
         <h1>LMS - Learning Management System</h1>
-        <h2>LMS - Course View</h2>
+        <!-- <h2>LMS - Course View</h2> -->
     </header>
     <div>
-        <nav>
+        <nav class="navigation">
             <a href="index.html">Homepage</a>
         </nav>
     </div>
@@ -30,7 +31,7 @@
             <!-- Display Course 1, 2, and 3 in the same line -->
             <h2>Enrolled Courses</h2>
             <hr>
-            <table>
+            <table class="course-view-table">
 				<tr>
 					<td>
 						<div>
@@ -88,15 +89,15 @@
             <!-- Display Course 1, 2, and 3 in the same line -->
             <h2>Pending Invitations</h2>
             <hr>
-            <table>
+            <table class="course-view-table">
 				<tr>
 					<td>
                         <div>
                             <img src="course2.jpg" alt="Course 2" width="250">
                             <p>Course Name: Data Science</p>
                             <p>Course Code: DS102</p>
-                            <button style="background-color: rgb(153, 255, 153);">Accept</button>
-                            <button style="background-color: rgb(252, 133, 133);">Decline</button>
+                            <button class="accept-button">Accept</button>
+                            <button class="decline-button">Decline</button>
                         </div>
                     </td> 
                     <td>
@@ -104,8 +105,8 @@
                             <img src="course2.jpg" alt="Course 2" width="250">
                             <p>Course Name: Machine Learning</p>
                             <p>Course Code: ML105</p>
-                            <button style="background-color: rgb(153, 255, 153);">Accept</button>
-                            <button style="background-color: rgb(252, 133, 133);">Decline</button>
+                            <button class="accept-button">Accept</button>
+                            <button class="decline-button">Decline</button>
                         </div>
                     </td> 
                 </tr>
