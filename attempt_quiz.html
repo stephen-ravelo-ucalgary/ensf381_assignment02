@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attempt Quiz - LMS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -18,27 +19,33 @@
         </nav>
     </div>
     <main>
-        <img src="banner.jpg" alt="Quiz Banner" style="width: 100%;">
-        <h2>Course: Web Development</h2>
-        <p>Topic: HTML Basics</p>
-        <p>Last Date: February 10, 2025</p>
-        <p>Attempts Allowed: 1</p>
-        
-        
+        <img class="quiz-banner" src="banner.jpg" alt="Quiz Banner" style="width: 100%;">
+        <div class="course-quiz-details">
+            <h2>Course: Web Development</h2>
+            <h2>Course Code:</h2>
+            <p>Topic: HTML Basics</p>
+            <p>Last Date: February 10, 2025</p>
+            <p>Attempts Allowed: 1</p>
+        </div>
+
         <h3>Question 1</h3>
         <p>What does HTML stand for?</p>
-        <input type="radio" id="q1a" name="q1" value="Hyper Text Markup Language">
-        <label for="q1a">Hyper Text Markup Language</label><br>
-        <input type="radio" id="q1b" name="q1" value="Home Tool Markup Language">
-        <label for="q1b">Home Tool Markup Language</label><br>
+        <div class="quiz-answers">
+            <input type="radio" id="q1a" name="q1" value="Hyper Text Markup Language">
+            <label for="q1a">Hyper Text Markup Language</label><br>
+            <input type="radio" id="q1b" name="q1" value="Home Tool Markup Language">
+            <label for="q1b">Home Tool Markup Language</label><br>
+        </div>
         <button>Submit Answer</button>
         
         <h3>Question 2</h3>
         <p>Which of the following are HTML elements? (Select all that apply)</p>
-        <input type="checkbox" id="q2a" name="q2" value="<div>">
-        <label for="q2a">&lt;div&gt;</label><br>
-        <input type="checkbox" id="q2b" name="q2" value="<span>">
-        <label for="q2b">&lt;span&gt;</label><br>
+        <div class="quiz-answers">
+            <input type="checkbox" id="q2a" name="q2" value="<div>">
+            <label for="q2a">&lt;div&gt;</label><br>
+            <input type="checkbox" id="q2b" name="q2" value="<span>">
+            <label for="q2b">&lt;span&gt;</label><br>
+        </div>
         <button>Submit Answer</button>
         
         <br><br>
