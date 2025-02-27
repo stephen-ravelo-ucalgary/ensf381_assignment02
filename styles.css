@@ -13,12 +13,16 @@ a {
     text-decoration: none;
 }
 
+main h2 {
+    color: darkblue;
+}
+
 header {
     background-color: #004080;
     padding: 20px;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
 }
 
@@ -37,7 +41,6 @@ footer {
 
 .navigation a {
     color: white;
-    margin: 0 100px;
 }
 
 .navigation a:hover {
@@ -74,6 +77,10 @@ footer {
     margin: 0 150px;
     border-radius: 30px;
     box-shadow: 5px 5px 5px #c4c4c4;
+}
+
+.login-form * {
+    margin: 5px;
 }
 
 .input-field {
